@@ -1,0 +1,234 @@
+:root {
+  --primary-color: #fed001;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+nav a {
+  color: inherit;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.6rem 4.6rem;
+  display: inline-block;
+  color: black;
+}
+
+.wrapperContainer {
+  padding-top: 1px;
+}
+
+.wrapperContainer-dark {
+  background-color: #2a2a2a;
+  color: #fafafa;
+}
+
+.wrapperContainer-light {
+  background-color: #fafafa;
+}
+
+.wrapperContainer-dark2 {
+  background-color: #003464;
+  color: #fafafa;
+}
+
+.wrapperContainer-fixed {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.wrapperContainer-padded {
+  padding-top: 12rem;
+}
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+}
+
+.section_title {
+  padding: 7rem 0;
+  text-align: center;
+  margin: 0;
+}
+
+.section_btn {
+  margin: 7rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.header img,
+.header svg {
+  width: 80px; /* Ajuste conforme o tamanho do logo original */
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Mantém SVG e texto alinhados verticalmente */
+  gap: 1rem; /* Define espaço entre o SVG e o texto */
+}
+
+.logo svg {
+  width: 80px; /* Ajuste conforme necessário */
+  height: auto;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column; /* Empilha o SVG e o texto verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  text-align: center;
+}
+
+.logo-text {
+  font-size: 2rem; /* Ajuste conforme necessário */
+  color: #e6c700;
+  font-weight: bold;
+}
+
+.header_nav a {
+  padding: 0.75em 1.15em;
+  border: solid 1px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 1.6rem;
+  list-style-type: none;
+}
+
+.header_nav a:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.wrapperContainer-hero {
+  background-image: linear-gradient(transparent, rgb(255, 255, 86));
+}
+
+.heroBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.hero_title {
+  margin-bottom: 4rem;
+}
+
+.courses {
+  text-align: center;
+}
+
+.coursesContainer {
+  display: flex;
+  text-align: left;
+  gap: 2rem;
+}
+
+.course_card {
+  /* border: 1px solid #949494;
+    border-radius: 10px;
+    overflow: hidden; */
+  /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0; */
+
+  flex: 1;
+}
+
+.course_card img {
+  display: block;
+  width: 100%;
+}
+
+.course_card h3 {
+  font-size: 2.4rem;
+}
+
+.course_card p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.courses_card_content {
+  padding: 1rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  border-top: transparent;
+}
+
+.school {
+  display: flex;
+  gap: 7rem;
+  padding-top: 6rem;
+}
+
+.school_title {
+  font-size: 3.2rem;
+  margin-top: 2rem;
+}
+
+.school p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.contacts_address {
+  text-align: right;
+  font: normal 400 1.8rem "Inter", sans-serif;
+  padding: 3rem 0;
+}
+
+.footer {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 4.5rem;
+}
+
+.footer a {
+  color: inherit;
+}
