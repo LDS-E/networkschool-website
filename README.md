@@ -55,10 +55,10 @@ Follow these steps to view the website on your local machine:
    Navigate to the project folder: cd networkschool-website
 
    Open index.html in your browser.
-
-   🤝 Contributions
-   Contributions are welcome! If you have suggestions or improvements, feel free to:
    ```
+
+🤝 Contributions
+Contributions are welcome! If you have suggestions or improvements, feel free to:
 
 Open an issue to discuss changes.
 Submit a pull request with improvements.
